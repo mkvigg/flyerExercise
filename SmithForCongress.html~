@@ -7,7 +7,7 @@
 <style>
 body {
 	font-family:'Anton', sans-serif;
-	text-align: justify;
+	text-align: center;
 	font-size: 2em;
 }
 h1 {
@@ -15,6 +15,15 @@ h1 {
 	font-size: 4.5em;
 	color:red;
 }
+#h1 {
+	position: relative;
+	height:200px;
+	width: 800px;
+	border: 300px solid;
+	background-color: black;
+}
+	
+
 h2 {
 	text-align: center;
 	color: blue;
@@ -38,7 +47,9 @@ h5 {
 </style>
 </head>
 <body>
+<div id="h1">
 <h1>VOTE SUSAN SMITH</h1> 
+</div>
 <h2>For re-election to Lower Merion</h2> 
 <h3>Town Council</h3>
 
